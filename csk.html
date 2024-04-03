@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ipl.css">
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+        .empty{
+            position: absolute;
+            clip-path: polygon(77% 0, 100% 0, 100% 100%, 40% 100%);
+            background-color: rgb(255, 208, 0);
+            width: 100%;
+            height: 100vh;
+            top: 0;
+            right: 0;
+            z-index: -1000;
+        }
+        .container .image img{
+            margin-left: 60%;
+            margin-top: 5%;
+            width: 500px;
+            height: 450px;
+/* for image reflection */
+
+            -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4));
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="logo">
+            <img src="imgaes/ipl.png" alt="">
+        </div> -->
+
+
+        <!-- this is for background logo -->
+        <div class="background">
+            <img src="CSK lofo.png" id="logobg" alt="">
+        </div>
+
+        <div class="heading">
+            <h1 id="head">
+                Chennai Super Kings
+            </h1>
+
+            <p style="font-weight: 350;">
+
+                Chennai Super Kings (CSK) is a prominent cricket franchise in the Indian Premier League (IPL), hailing from Chennai, Tamil Nadu, India. Established in 2008, CSK quickly rose to prominence under the astute leadership of former Indian captain, Mahendra Singh Dhoni. The team's yellow jersey, symbolic of Chennai's vibrant spirit, has become iconic in the cricketing world. CSK is renowned for its consistent performance, having qualified for the IPL playoffs in every season they've participated in. The franchise boasts a formidable lineup of players, including veterans like Dhoni, Suresh Raina, and Ravindra Jadeja, along with promising young talent.</p>
+
+            <button>WATCH NOW</button>
+        </div>
+
+        <!-- this is for main image -->
+
+        <div class="image">
+            <img id="myimage" src="Dhoni.png" alt="">
+        </div>
+
+        <!-- now navbar -->
+
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>    
+                <li>Team</li>
+                <li>Performance</li>
+                <li>Rank</li>
+            </ul>
+        </div>
+        <div class="empty">
+        </div>
+        <div class="list">
+            <ol>
+                <a href="mi.html">MI</a>
+                <a href="dc.html">DC</a>
+                <a href="srh.html">SRH</a>
+                <a href="kxip.html">KXIP</a>
+                <a href="rr.html">RR</a>
+                <a href="kkr.html">KKR</a>
+                <a href="gt.html">GT</a>
+                <a href="lsg.html">LSG</a>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

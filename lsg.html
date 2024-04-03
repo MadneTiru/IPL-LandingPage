@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ipl.css">
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+        .empty{
+            position: absolute;
+            clip-path: polygon(77% 0, 100% 0, 100% 100%, 40% 100%);
+            background-color: rgb(5, 209, 249);
+            width: 100%;
+            height: 100vh;
+            top: 0;
+            right: 0;
+            z-index: -1000;
+}
+.container .image img{
+    margin-left: 63%;
+    margin-top: 5%;
+    width: 500px;
+    height: 450px;
+/* for image reflection */
+
+-webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4));
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="logo">
+            <img src="imgaes/ipl.png" alt="">
+        </div> -->
+
+
+        <!-- this is for background logo -->
+        <div class="background">
+            <img src="lsg logo.png" id="logobg" alt="">
+        </div>
+
+        <div class="heading">
+            <h1 id="head">
+                Lucknow Super Jaint's
+            </h1>
+
+            <p style="font-weight: 350;">
+                As of my last update in January 2022, there's no widely recognized cricket franchise or team with the acronym "LSG" in major cricket leagues like the Indian Premier League (IPL). It's possible that "LSG" could refer to a team or franchise that emerged after my last update, or it could pertain to a regional or amateur cricket team that hasn't gained widespread recognition. If "LSG" represents a newly formed team or an entity outside of professional cricket leagues, I would need more specific information to provide a detailed description.                      </p>
+
+            <button>WATCH NOW</button>
+        </div>
+
+        <!-- this is for main image -->
+
+        <div class="image">
+            <img id="myimage" src="kl.png" alt="">
+        </div>
+
+        <!-- now navbar -->
+
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>    
+                <li>Team</li>
+                <li>Performance</li>
+                <li>Rank</li>
+            </ul>
+        </div>
+        <div class="empty">
+        </div>
+        <div class="list">
+            <ol>
+                <a href="csk.html">CSK</a>
+                <a href="mi.html">MI</a>
+                <a href="dc.html">DC</a>
+                <a href="srh.html">SRH</a>
+                <a href="kxip.html">KXIP</a>
+                <a href="rr.html">RR</a>
+                <a href="kkr.html">KKR</a>
+                <a href="gt.html">GT</a>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

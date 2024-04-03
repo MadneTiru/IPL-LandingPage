@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ipl.css">
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+        .empty{
+            position: absolute;
+            clip-path: polygon(77% 0, 100% 0, 100% 100%, 40% 100%);
+            background-color: rgb(163, 13, 228);
+            width: 100%;
+            height: 100vh;
+            top: 0;
+            right: 0;
+            z-index: -1000;
+}
+.container .image img{
+    margin-left: 63%;
+    margin-top: 5%;
+    width: 450px;
+    height: 450px;
+/* for image reflection */
+
+-webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4));
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="logo">
+            <img src="imgaes/ipl.png" alt="">
+        </div> -->
+
+
+        <!-- this is for background logo -->
+        <div class="background">
+            <img src="kkr logo.png" id="logobg" alt="">
+        </div>
+
+        <div class="heading">
+            <h1 id="head">
+                Kolkata Knight Rider's
+            </h1>
+
+            <p style="font-weight: 350;">
+
+                Kolkata Knight Riders (KKR) is a prominent cricket franchise in the Indian Premier League (IPL), representing the city of Kolkata, West Bengal, India. Established in 2008, KKR quickly became a force to be reckoned with under the ownership of Bollywood superstar Shah Rukh Khan, actress Juhi Chawla, and her spouse Jay Mehta. The team's distinctive purple and gold attire has become iconic in the IPL. KKR has had its fair share of successes, clinching the IPL title in 2012 and 2014. Led by influential captains like Gautam Gambhir and Dinesh Karthik, KKR boasts a talented lineup of players, including international stars like Andre Russell, Sunil Narine, and Eoin Morgan.                      </p>
+
+            <button>WATCH NOW</button>
+        </div>
+
+        <!-- this is for main image -->
+
+        <div class="image">
+            <img id="myimage" src="ayer.png" alt="">
+        </div>
+
+        <!-- now navbar -->
+
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>    
+                <li>Team</li>
+                <li>Performance</li>
+                <li>Rank</li>
+            </ul>
+        </div>
+        <div class="empty">
+        </div>
+        <div class="list">
+            <ol>
+                <a href="csk.html">CSK</a>
+                <a href="mi.html">MI</a>
+                <a href="dc.html">DC</a>
+                <a href="srh.html">SRH</a>
+                <a href="kxip.html">KXIP</a>
+                <a href="rr.html">RR</a>
+                <a href="gt.html">GT</a>
+                <a href="lsg.html">LSG</a>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

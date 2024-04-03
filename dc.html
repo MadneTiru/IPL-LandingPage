@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ipl.css">
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+        .empty{
+            position: absolute;
+            clip-path: polygon(77% 0, 100% 0, 100% 100%, 40% 100%);
+            background-color: rgb(64, 74, 125);
+            width: 100%;
+            height: 100vh;
+            top: 0;
+            right: 0;
+            z-index: -1000;
+}
+.container .image img{
+    margin-left: 60%;
+    margin-top: 5%;
+    width: 500px;
+    height: 450px;
+/* for image reflection */
+
+-webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4));
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="logo">
+            <img src="imgaes/ipl.png" alt="">
+        </div> -->
+
+
+        <!-- this is for background logo -->
+        <div class="background">
+            <img src="DC logo.png" id="logobg" alt="">
+        </div>
+
+        <div class="heading">
+            <h1 id="head">
+                Delhi Capitals
+            </h1>
+
+            <p style="font-weight: 350;">
+                Delhi Capitals (formerly known as Delhi Daredevils) is a professional cricket franchise based in Delhi, India, competing in the Indian Premier League (IPL). Established in 2008, the team underwent a rebranding in 2018, adopting the name Delhi Capitals to reflect a fresh identity and renewed vigor. The franchise has showcased a mix of seasoned veterans and emerging talents, aiming for consistent success in the IPL. Led by dynamic leaders such as Shreyas Iyer and Rishabh Pant, Delhi Capitals have demonstrated their competitive edge, consistently challenging the top teams in the league. With a loyal fanbase backing them, Delhi Capitals continue to strive for their maiden IPL title, epitomizing the spirit of cricket in the capital city of India.
+            </p>
+
+            <button>WATCH NOW</button>
+        </div>
+
+        <!-- this is for main image -->
+
+        <div class="image">
+            <img id="myimage" src="pant.png" alt="">
+        </div>
+
+        <!-- now navbar -->
+
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>    
+                <li>Team</li>
+                <li>Performance</li>
+                <li>Rank</li>
+            </ul>
+        </div>
+        <div class="empty">
+        </div>
+        <div class="list">
+            <ol>
+                <a href="csk.html">CSK</a>
+                <a href="mi.html">MI</a>
+                <a href="srh.html">SRH</a>
+                <a href="kxip.html">KXIP</a>
+                <a href="rr.html">RR</a>
+                <a href="kkr.html">KKR</a>
+                <a href="gt.html">GT</a>
+                <a href="lsg.html">LSG</a>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
